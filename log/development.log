@@ -1891,3 +1891,21 @@ Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4
 
 
 Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-10-04 14:27:43 +1300
+
+
+Started GET "/about" for ::1 at 2015-10-04 14:29:15 +1300
+Processing by SiteController#about as HTML
+  Rendered site/about.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 34.3ms)
+
+
+Started GET "/privacy" for ::1 at 2015-10-04 14:29:20 +1300
+Processing by SiteController#privacy as HTML
+  Rendered site/privacy.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 37ms (Views: 36.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-04 14:29:23 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 38.3ms)
