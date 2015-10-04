@@ -2229,3 +2229,111 @@ Processing by InquiriesController#new as HTML
   Parameters: {"message"=>"hello"}
   Rendered inquiries/new.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 35ms (Views: 34.8ms)
+
+
+Started POST "/contact" for ::1 at 2015-10-04 16:52:36 +1300
+Processing by InquiriesController#new as HTML
+  Parameters: {"message"=>"hello"}
+  Rendered inquiries/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 34.1ms)
+
+
+Started POST "/contact" for ::1 at 2015-10-04 16:55:42 +1300
+Processing by InquiriesController#new as HTML
+  Parameters: {"message"=>"hello"}
+  Rendered inquiries/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 92ms (Views: 92.3ms)
+
+
+Started GET "/assets/application.self-a418fc0ba5f4a579c7c5f8792d9a91e2910b404a499dbbcfe1df09adf2c5af27.css?body=1" for ::1 at 2015-10-04 16:55:42 +1300
+
+
+Started GET "/" for ::1 at 2015-10-04 16:55:58 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 34.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-04 16:56:22 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 87ms (Views: 86.8ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-04 16:56:22 +1300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-04 16:56:22 +1300
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-10-04 16:56:22 +1300
+
+
+Started GET "/assets/application.self-0d1eb13fdc43654a830e1941b7920132017e49ab7fc73e72d780ae76eb935a93.css?body=1" for ::1 at 2015-10-04 16:56:22 +1300
+
+
+Started GET "/" for ::1 at 2015-10-04 16:57:28 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 90ms (Views: 89.5ms)
+
+
+Started GET "/assets/application.self-df2d85ba9d5db747ce51b9fb7be3ebfd3d25d5d50466d24bf87849906e52cc0d.css?body=1" for ::1 at 2015-10-04 16:57:28 +1300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-04 16:57:28 +1300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-04 16:57:28 +1300
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-10-04 16:57:28 +1300
+
+
+Started GET "/" for ::1 at 2015-10-04 16:59:41 +1300
+Processing by SiteController#index as HTML
+  Rendered site/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 35ms (Views: 35.3ms)
+
+
+Started GET "/assets/application.self-df2d85ba9d5db747ce51b9fb7be3ebfd3d25d5d50466d24bf87849906e52cc0d.css?body=1" for ::1 at 2015-10-04 16:59:42 +1300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-04 16:59:42 +1300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-04 16:59:42 +1300
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-10-04 16:59:42 +1300
+
+
+Started GET "/contact" for ::1 at 2015-10-04 17:00:06 +1300
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 38ms (Views: 38.0ms)
+
+
+Started GET "/contact" for ::1 at 2015-10-04 17:00:21 +1300
+Processing by InquiriesController#new as HTML
+  Rendered inquiries/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 46.8ms)
+
+
+Started GET "/assets/application.self-df2d85ba9d5db747ce51b9fb7be3ebfd3d25d5d50466d24bf87849906e52cc0d.css?body=1" for ::1 at 2015-10-04 17:00:21 +1300
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-10-04 17:00:21 +1300
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-10-04 17:00:21 +1300
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2015-10-04 17:00:21 +1300
+
+
+Started POST "/contact" for ::1 at 2015-10-04 17:00:29 +1300
+Processing by InquiriesController#new as HTML
+  Parameters: {"message"=>"hello world"}
+  Rendered inquiries/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 34ms (Views: 33.5ms)
