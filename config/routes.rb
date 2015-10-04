@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   get '/about' => 'site#about'
   get '/privacy' => 'site#privacy'
+  get '/terms' => 'site#terms'
 end
