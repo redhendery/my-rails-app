@@ -1,4 +1,3 @@
-# app/mailers/inquiry_mailer.rb
 class InquiryMailer < ApplicationMailer
   def inquiry_email(inquiry)
     @inquiry = inquiry

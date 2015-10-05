@@ -27,7 +27,11 @@
           <ul class="nav navbar-nav">
               <li><%= link_to_unless_current "About", about_path do
                     content_tag(:span, "About", class: "this-page")end %></li>
-            <li><a href="#contact">Contact</a></li>
+              <li>
+                <%= link_to_unless_current "Contact", contact_path do |label|
+                  content_tag(:span, label, class: "this-page")
+                end %>
+              </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -50,7 +54,7 @@
       <%= yield %>
     </main>
 
-    <main class="container main" role="main">
+<!--     <main class="container main" role="main">
       <% if flash.alert %>
         <div class="messages">
           <div class="alert alert-danger" role="alert">
@@ -67,7 +71,7 @@
         </div>
       <% end %>
 
-    </main>
+    </main> -->
 
     <footer class="footer">
       <div class="container">
